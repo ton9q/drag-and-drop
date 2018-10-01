@@ -1,0 +1,45 @@
+.container-drag {
+  text-align: center;
+}
+
+.header {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+  width: 100%;
+}
+
+.task-header {
+  display: inline-block;
+  background-color: rgb(190, 189, 194); 
+  width: 100%;
+}
+
+.wip {
+  position: absolute;
+  width: 150px;
+  height: 95vh;
+  left: 0;
+  top: 10;
+  background-color: rgb(94, 90, 85);
+  border-right: 1px dotted;
+}
+
+.droppable {
+  position: absolute;
+  width: 150px;
+  height: 95vh;
+  right: 0;
+  top: 10;
+  background-color: gray;
+  border-left: 1px dotted;
+}
+
+.draggable {
+  width: 100px;
+  height: 100x;
+  background-color: yellow;
+  margin: 5px auto;
+  line-height: 5em;
+}
